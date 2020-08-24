@@ -9,7 +9,7 @@ If you have any questions feel free to email: [thealbertyang@gmail.com](mailto:t
 
 ## Demo
 
-You can test the demo of the app deployed to AWS: 
+You can test the demo of the app deployed to AWS: [http://44.235.137.244:3000/](http://44.235.137.244:3000/)
 
 
 ## Setup
