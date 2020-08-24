@@ -1,58 +1,20 @@
-# Lucid UI Code Assessment
+# Lucid UI Code Assesment
 
-Welcome to the code assessment for Lucid's UI Team.
+Hi,
 
-This README details what we expect from you on this assessment. If you have any questions, feel free to reach out anytime.
+Thanks for considering me for the Senior Frontend Engineer role at Lucid. 
 
-Please, use this repository to fork the project into your account and submit the link to us (by email) with the final solution when done.
-
-## Application
-
-The purpose of this exercise is to build a [React](https://reactjs.org) application based on the provided mockups and requirements below:
-
-### Quiz App
-
-The application is a Quiz interface - a UI that shows a set of questions and lets the user select an answer for each one.
-
-The Quiz features three different types of questions. Use the included mockups as references for styling.
-
-**Multiple**   
-A multiple-choice question (predefined answer options)
-
-![](./mockups/multiple.png)
+If you have any questions feel free to email: [thealbertyang@gmail.com](mailto:thealbertyang@gmail)
 
 
-**Boolean**   
-A "true or false" only answer question
+## Demo
 
-![](./mockups/boolean.png)
+You can test the demo of the app deployed to AWS: 
 
-**Text**   
-An open-ended text question
 
-![](./mockups/text.png)
+## Setup
 
-### Requirements
-
-1. The UI should fetch the questions data from an API (provided in this repository). More details in [API instructions](#api-instructions)
-
-2. The application should display one question per time, randomly selected from the set of questions.  
-   
-3. When the user finishes the Quiz, the UI should display a summary page with the results, including:
-
-- Number of correct answers
-- Number of incorrect answers
-- Total number of questions answered
-- The final score (%)
-- A button to restart the Quiz with a different questions
-
-A reference mockup for the summary page is depicted below:
-
-![](./mockups/summary.png)
-
-### Setup
-
-This repo provides a React application bootstrap. To get setup, run these commands:
+To get setup, run these commands:
  
 - Install dependencies:
 
@@ -66,16 +28,35 @@ npm install
 npm start
 ```
 
-The command above will:
+## Technologies Used
+- React Testing Library
+- Styled Components
+- React Hook Forms
+- React Wizard Primitive
 
-- Start an HTTP server for the API (localhost:4000);
-- Start an HTTP server (powered by react-scripts) for the front-end (localhost:3000);
+## Requirements Met
 
-### API instructions
+- ✅ The UI should fetch the questions data from an API (provided in this repository). 
+- ✅ The application should display one question per time, randomly selected from the set of questions. 
+- ✅ When the user finishes the Quiz, the UI should display a summary page with the results, including: 
+    - Number of correct answers 
+    - Number of incorrect answers 
+    - Total number of questions answered 
+    - The final score (%) 
+    - A button to restart the Quiz with a different questions 
 
-This repository provides a basic API (running under port 4000) that returns the required data for the application.
-The API will be available after running the `npm start` command.  
+## Testing
 
-#### GET Questions List
+Testing is done with React Testing Library to test as closely as a user.
 
-`http://localhost:4000/api/questions`
+Code coverage: 82.63%
+
+To test, run:
+ 
+```sh
+npm test
+```
+
+## More
+
+You can find out more details about me at [https://thealbertyang.com](https://thealbertyang.com)
